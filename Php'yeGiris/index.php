@@ -25,8 +25,30 @@
     </head>
     <body>
         <?php
-            echo "Selim Tekin<br/>";
+            echo "Selim Tekin\"in kodları<br/>"; // çift/tek tırnak sorunu çıkmasın diye \ kullandık \ -> kaçırma operatörü
         ?>
+<?php echo <<<END
+Merhaba
+END;  
+?>
+
+        <?php
+            $ornek = "ornek";
+
+            echo 'Bu bir $ornek\'tir</br>'; // tek tırnak kullanıldığında değişkenler görülemez. Çıktı: Bu bir $ornek'tir
+            echo "Bu bir {$ornek}'tir<br>"; // Böylr olmalı (okunaklı olması açısından {} kulanıldı)
+        ?>
+
+        <?php
+            echo "Selim", " Tekin<br>";
+            echo("Selim Tekin<br>");
+            echo(65);
+        ?>
+
+        <!-- echo kısayolları -->
+        <?="Selim Tekin"?>
+        <?php $ornekTwo = "Deneme" ?>
+        <?=$ornekTwo?>
         <input type="button" onClick="deneme();" value="İşlem Yap"><br/><br/>
         <div id="islemAlani"></div>
     </body>
