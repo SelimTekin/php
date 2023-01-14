@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="Content-Language" content="tr">
         <meta charset="utf-8">
-        <title>İlk Sayfa</title>
+        <title>Echo</title>
 
         <!--css ve javascript kodları farklı bir dosyadan erişerek değil de bu şekilde de yazılabilir-->
         <!--<style>
@@ -49,6 +49,7 @@ END;
         <?="Selim Tekin"?>
         <?php $ornekTwo = "Deneme" ?>
         <?=$ornekTwo?>
+        
         <input type="button" onClick="deneme();" value="İşlem Yap"><br/><br/>
         <div id="islemAlani"></div>
     </body>
