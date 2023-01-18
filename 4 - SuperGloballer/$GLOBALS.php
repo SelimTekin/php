@@ -71,5 +71,7 @@
 
     ?>
 
+    <a href="$_SERVER.php">link</a>
+
 </body>
 </html>
