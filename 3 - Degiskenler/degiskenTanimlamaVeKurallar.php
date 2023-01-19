@@ -18,7 +18,7 @@
             * 4. Değişken isimleri içerisinde alfanumerik değerler (A-Z a-z 0-9) ve _ (alt çizgi) kullanılabilir.
             * 5. Değişken isimleri içerisinde hiçbir zaman boşluk, Türkçe karakterler veya özel karakterler kullanılamaz.
             * 6. Değişken isimleri tanmlanırken , PHP tarafından kullanılmakta olan isimler / tanımlar kullanılamaz.
-            * 7. Değişken isimleri büyük ahrf / küçük harf duyarlıdır.
+            * 7. Değişken isimleri büyük harf / küçük harf duyarlıdır.
             * 8. Değişken isimleri birden fazla kez kullanılabilir. Fakat değişken isimlerinin tekrar edilmesi durumunda, daima son değişkenin değeri gerçek değer olarak kabul edilecektir.
             * 9. Değişkenler kapsama / etki alanı kurallarına tabidir.
          */
