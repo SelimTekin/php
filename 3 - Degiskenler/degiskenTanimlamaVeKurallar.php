@@ -13,7 +13,7 @@
          * Değişken : Girdiğimiz değerleri alan veya programın çalışması ile bazı değerlerin atandığı veri tutuculardır.
          * Kurallar :
             * 1. Değişkenler daima $ (dolar) işareti ile başlar.
-            * 2. Değişken isimleri mutalak bir harf veya _ (alt çizgi) ile başlamalıdır.
+            * 2. Değişken isimleri mutlaka bir harf veya _ (alt çizgi) ile başlamalıdır.
             * 3. Değişken isimleri hiçbir zaman bir rakam ile başlayamaz.
             * 4. Değişken isimleri içerisinde alfanumerik değerler (A-Z a-z 0-9) ve _ (alt çizgi) kullanılabilir.
             * 5. Değişken isimleri içerisinde hiçbir zaman boşluk, Türkçe karakterler veya özel karakterler kullanılamaz.
