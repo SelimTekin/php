@@ -1,0 +1,15 @@
+					Konular									Saatler
+----------------------------------------------------------  ---------------------------------------
+
+23 - Form İşlemleri												2s 5d
+27 - Cookie ve Session Yöntemleri									2s 21d
+33 - Güvenlik İşlemleri İçin Kullanılan Ön Tanımlı Metotlar				1s 44d
+35 - Curl														5s 46d
+37 - MySqli ile Veritabanı İşlemleri								16s 52d(Bunu en sona bırak çok uzun.Hatta yapmayıp 41'e başlayabilirsin)
+39 - Htaccess ve SEO İşlemleri									1s 43d
+
+
+Bunlar bitince(biterse) evde şunları yap bitmezse okulda devam et:
+
+41 - Örnek Uygulamalar											11s 7d
+42 - Basic E-Ticaret Projesi										1g 23s 1d
