@@ -70,15 +70,15 @@
 
         hash_update($sifreleme, $deger1);   // Selim
         $kopyala  = hash_copy($sifreleme);  // Selim içeriğini elinde tutar.
-        $sonucBİr = hash_final($sifreleme); // Selim içeriğinin hash özeti üretildi.
-        echo "md5 özeti : " . $sonucBir . "<br />";
+        $sonucBir = hash_final($sifreleme); // Selim içeriğinin hash özeti üretildi.
+        echo $deger1 . " içeriğinin md5 özeti : " . $sonucBir . "<br />";
 
         // finalden önce yapılmalı bu işlem.
         // $kopyala  = hash_copy($sifreleme); // Hata kodu döndürür. Çünkü $sifreleme değişkeni ile oluşturulan hash, final yapıldıktan sonra işlem başka alanda kullanılamaz.
         
-        hash_update($kopyala, $deger1);     // Selim içeriği elinde bulunduğundan dolayı Tekin içeriğini de birleştireceği için artık SelimTekin olur. 
+        hash_update($kopyala, $deger2);     // Selim içeriği elinde bulunduğundan dolayı Tekin içeriğini de birleştireceği için artık SelimTekin olur. 
         $sonucIki = hash_final($kopyala);   // SelimTekin içeriğinin hash özeti üretildi.
-        echo "md5 özeti : " . $sonucIki . "<br />";
+        echo $deger1 . $deger2 . " içeriğinin md5 özeti : " . $sonucIki . "<br />";
 
         echo md5("SelimTekin");             // Sağlama
 
