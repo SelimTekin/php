@@ -1,0 +1,11 @@
+# Eğer yapılandırma dosyaları ile igili işlem yapacaksak php_value dememiz gerekiyor.
+php_value
+
+# sitemize yüklenebilecek max dosya boyutu
+php_value   post_max_size   256M
+
+# formdan yüklenebilecek max dosya boyutu
+php_value   upload_max_filesize   1024M
+
+# hafıza limiti
+php_value   memory_limit   512M

@@ -1,0 +1,9 @@
+# Yönlendirmelerin aktif hale geçebilmesi için ilk satıra RewriteEngine    On yazıyoruz. RewriteEngine -> yeniden yönlendirme motoru
+RewriteEngine    On
+
+# Artık istediğim link yapılarını, görevlerini yazabilirim. () ile düzenli bir yapı grubu oluşturuyoruz.
+# . -> herhangi bir karakter / * -> 0 veya daha fazla kez tekrarlanabilir / ^ -> başlayacak / $ -> bitecek /
+# $1 -> parametre sırası( mesela (.*) bundan 2 tane olsaydı ikincisi için $2 diyecektik) /
+# [QSA] query cümleciğini dahil etmek için kullanıyoruz.(Query String Append)
+# Yani burada demiş oluyoruz ki başlangıcında ve bitişinde herhangi bir değer 0 veya daha fazla kez kullanılabilir.
+RewriteRule ^(.*)$  index.php?sayfa=$1  [QSA]

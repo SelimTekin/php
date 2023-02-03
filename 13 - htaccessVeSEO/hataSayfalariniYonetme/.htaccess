@@ -1,0 +1,4 @@
+ErrorDocument   401 http://localhost/Php/13%20-%20htaccessVeSEO/hata.php
+ErrorDocument   403 http://localhost/Php/13%20-%20htaccessVeSEO/hata.php
+ErrorDocument   404 http://localhost/Php/13%20-%20htaccessVeSEO/hata.php
+ErrorDocument   500 http://localhost/Php/13%20-%20htaccessVeSEO/hata.php
