@@ -103,7 +103,7 @@
         // PHP dosyasının çalıştığı server'ın iletişim amacıyla kullanılan server port bilgisini verir.
         // Apache server'ı içerisinde "Listen" yönergesinde tanımlıdır.(Yani httpd.conf dosyasında)
         // Http portu -> 80, Https portu -> 443
-        echo '$_SERVER["SERVER_PORT"] => ' . $_SERVER["REMOTE_ADDR"] . "<br/>";
+        echo '$_SERVER["SERVER_PORT"] => ' . $_SERVER["SERVER_PORT"] . "<br/>";
 
         // SERVER_SOFTWARE, HTTP_HOST VE SERVER_PORT. Bunlar birbirine eklenir ve imzayı oluşturur. Buna da sunucu imzası ismi veriliyor.
         // Çıktı : Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.2 Server at localhost Port 80

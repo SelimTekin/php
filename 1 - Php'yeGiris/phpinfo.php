@@ -22,7 +22,7 @@
          * INFO_VARIABLES     : $_SERVER SÜPER GLOBALİ / ÖNTANIMLI DEĞİŞKEN BİLGİLERİ
          */
 
-        //  phpinfo();
+         phpinfo();
         //  phpinfo(INFO_ALL); # yukarıdakiyle aynı
         //  phpinfo(INFO_LICENSE);
         //  phpinfo(INFO_CREDITS);
@@ -30,7 +30,7 @@
         //  phpinfo(INFO_CONFIGURATION);
         //  phpinfo(INFO_MODULES);
         //  phpinfo(INFO_ENVIRONMENT);
-         phpinfo(INFO_VARIABLES);
+        //  phpinfo(INFO_VARIABLES);
     ?>
 
 </body>
