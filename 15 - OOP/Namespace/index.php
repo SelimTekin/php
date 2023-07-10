@@ -7,6 +7,9 @@
 </head>
 <body>
     <?php
+
+    // namespace : Sınıflar için özel isim alanları / kümeleri tanımlamak için kullanılır.
+    
     require_once("Siniflar/seliminSiniflari.php");
     require_once("Siniflar/tekininSiniflari.php");
 
